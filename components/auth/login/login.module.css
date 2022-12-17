@@ -1,0 +1,18 @@
+@media (min-width: 664px) {
+    .center{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media (max-width: 664px) {
+    .center{
+display: block;
+    }
+    
+}

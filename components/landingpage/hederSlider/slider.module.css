@@ -1,0 +1,39 @@
+.slider {
+  height: 560px;
+  
+}
+
+.img_slider {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.img_slider:hover {
+  position: absolute;
+  height: 100%;
+  filter: blur(5px);
+  transition: all .2s ease-in-out;
+}
+
+.text_img_slider {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translateX(50%);
+  color: white !important;
+  font-weight: bold;
+  font-size: x-large;
+}
+.text_img_slider_btn {
+  position: absolute;
+  right: 50px;
+  bottom: 60px;
+  color: white !important;
+}
+.text_img_slider_link {
+  position: absolute;
+  right: 50px;
+  bottom: 110px;
+  color: white !important;
+}

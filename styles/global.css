@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Vazir";
+    src: url("../public/fonts/fontawesome-webfont.eot");
+    src: url("../public/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../public/fonts/Vazir.woff2") format("woff2"),
+      url("../public/fonts/Vazir.woff") format("woff"),
+      url("../public/fonts/Vazir.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+body {
+    font-family: "Vazir", "tahoma", "Ubuntu" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    direction: rtl;
+    background-color: #FBE5C8;
+}
+*{
+  box-sizing: border-box;
+}
+
+
+.ss{
+  color: Rosewater
+  #FFC2C7
+  
+  Spearmint
+  #B6E5D8
+  
+  Peach
+  #FBE5C8
+  
+  Turquoise
+  #8FDDE7
+}

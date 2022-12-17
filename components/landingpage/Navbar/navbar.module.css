@@ -1,0 +1,122 @@
+
+  .submenu{
+    position: absolute;
+    z-index: 500;
+    box-shadow: -2px 2px 70px -25px rgba(0,0,0,0,0.3 green, blue, alpha);
+    padding: 20px 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    margin-top: 25px;
+    width: 30rem;
+    top: 60px;
+  }
+  @media (min-width: 991px) {
+  
+  .subli:hover .submenu{
+  visibility: visible;
+  opacity: 0.9;
+  margin-top: 0;
+  }
+  }
+
+  @media (max-width: 664px) {
+  .menu{
+    z-index: 100;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 100px;
+    right: 0;
+    width: 80%;
+    border: 2px solid rgb(134, 133, 133);
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+  }
+
+  .active_menu{
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+  }
+  .menu ul{
+    height: auto;
+    display: block;
+
+  }
+  .icons{
+    border: 2px solid rgb(134, 133, 133);
+    z-index: 100;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background-color: rgb(138, 255, 138);
+border-bottom: 2px solid black;
+width: 80%;
+transform: translateX(100%);
+-webkit-transform: translateX(100%);
+-moz-transform: translateX(100%);
+-ms-transform: translateX(100%);
+-o-transform: translateX(100%);
+transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-ms-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+  }
+  .active_icons{
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+  }
+
+  .submenu{
+    top: 0;
+    right: 0;
+    position: relative;
+    box-shadow: -2px 2px 70px -25px rgba(0,0,0,0,0.3 green, blue, alpha);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;  
+      height: 0;
+    padding: 0;
+    margin: 0;
+    width: auto;
+
+  }
+  .subli{
+    position: relative;
+  }
+ .active_submenu{
+  position: relative;
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    }
+    }
+  .ss{
+    color: Rosewater
+    #FFC2C7
+    
+    Spearmint
+    #B6E5D8
+    
+    Peach
+    #FBE5C8
+    
+    Turquoise
+    #8FDDE7
+  }
